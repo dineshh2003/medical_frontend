@@ -1,0 +1,189 @@
+<html>
+
+<head>
+    <title>Patient body examine details</title>
+    <link rel="stylesheet" href="examine-pract.css">
+</head>
+
+<body>
+    <div class="details">
+    <p><a href="hospital.html"><button type="submit" class="hidden" style='margin-right:16px'>Hospital
+                Registration</button></a>
+        <a href="doctor.html"><button type="submit" class="hidden" style='margin-right:16px'>Doctor
+                Registration</button></a>
+        <a href="patient.html"><button type="submit" class="hidden" style='margin-right:16px'>Patient
+                Registration</button></a>
+        <a href="patient_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Patient
+                Details</button></a>
+        <a href="record_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Medical
+                Record</button></a>
+    </p>
+    </div>
+    <h3>To update details of a patient body examine :: <a href="patient_examine.html">Click Here</a></h3>
+    <h3>Previous dates of medical record updated</h3>
+    <form>
+        <table style="width:25%" class="table-text">
+            <tr>
+                <td>Enter Patient Id:</td>
+                <td><input type="text" id="tid1" name="tid1"></td>
+            </tr>
+            <tr>
+                <td> Dates:</td>
+                <td>
+                    <div id="get_dates1"> <input type="date"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="date_details()" value="Get Details"></td>
+            </tr>
+
+        </table>
+    </form>
+    <h2>Patient Body Examine Details</h2>
+    <div id="record">
+    <tr>
+        <td>Enter Record Id:</td>
+        <td><input type="text" id="tid" name="tid"></td>
+    </tr>
+    <tr>
+        <td><input type="button" onclick="get_details()" value="Get Details"></td>
+    </tr>
+    </div>
+    <h2>Investigations</h2>
+    <div id="form2">
+    <form>
+        <table style="width:35%" class="table-text">
+
+            <tr>
+                <td> Blood Test:</td>
+                <td>
+                    <div id="get_blood"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Urine Test:</td>
+                <td>
+                    <div id="get_uri"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>ECG:</td>
+                <td>
+                    <div id="get_ecg"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>MRI Scan:</td>
+                <td>
+                    <div id="get_mri"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>CT Scan:</td>
+                <td>
+                    <div id="get_ct"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>X-ray:</td>
+                <td>
+                    <div id="get_xray"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Lab Test(if any other):</td>
+                <td>
+                    <div id="get_lab"></div>
+                </td>
+            </tr>
+        </table>
+     </form>
+     </div>
+    <h2> General Examination</h2>
+    <form>
+        <table style="width:25%" class="table-text">
+
+            <tr>
+                <td>Built:</td>
+                <td>
+                    <div id="get_built"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Nourishment:</td>
+                <td>
+                    <div id="get_nou"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Eyes:</td>
+                <td>
+                    <div id="get_eyes"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Tongue:</td>
+                <td>
+                    <div id="get_ton"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Pulse:</td>
+                <td>
+                    <div id="get_pulse"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Blood Pressure:</td>
+                <td>
+                    <div id="get_bp"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Temperature:</td>
+                <td>
+                    <div id="get_temp"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Respiratory rate:</td>
+                <td>
+                    <div id="get_res"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <h2> Systemic Examination</h2>
+    <form>
+        <table style="width:25%">
+
+            <tr>
+                <td> CVS:</td>
+                <td>
+                    <div id="get_cvs"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>CNS:</td>
+                <td>
+                    <div id="get_cns"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>RS:</td>
+                <td>
+                    <div id="get_rs"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Abdomen system:</td>
+                <td>
+                    <div id="get_abs"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

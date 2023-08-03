@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(129, 127, 127));
+  height: 100vh;
+}
+.details {
+  height: 3vh;
+  margin: 13px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details p {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(23, 4, 4, 0.711);
+  font-family: "Lato", sans-serif;
+}
+.content {
+  margin: 1vw 0;
+}
+h2 {
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  margin: 4vh 6vh;
+  font-size: 4vh;
+  justify-content: center;
+  color: rgba(23, 4, 4, 0.711);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+ }
+ .table{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+ }
+ input{
+    /* border-radius: 3px;
+    border: #6e00ff; */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    outline: none;
+ }
+ h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.7vh;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+ }
+ h3 a{
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+ }

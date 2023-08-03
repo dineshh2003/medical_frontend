@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Borel&family=Dai+Banna+SIL:wght@300&family=Lato:wght@100;300&family=Oswald&family=Playball&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Borel&family=Dai+Banna+SIL:wght@300&family=Lato:wght@100;300&family=Montserrat:wght@300&family=Oswald&family=Playball&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to right, rgb(255, 255, 255), rgb(129, 127, 127)); */
+    background-image: url(bg2.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 50vw;
+}
+h1{
+    margin: 30px ;
+    font-size: 8vh;
+    font-family: 'Playball', cursive;
+    color: rgba(0, 0, 0, 0.8);
+}
+.content{
+    margin: 30px ;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+.hidden{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(150, 211, 199);
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+button {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(150, 211, 199, 0);
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+h3{
+    margin: 30px ;
+    font-size: 4vh;
+    font-family: 'Montserrat', sans-serif;
+}
+#chat{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 20vh;
+    right: 20vw;
+}

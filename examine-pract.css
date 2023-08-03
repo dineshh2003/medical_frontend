@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Borel&family=Dai+Banna+SIL:wght@300&family=Lato:wght@100;300&family=Oswald&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(129, 127, 127));
+    height: 100vh;
+}
+.details{
+    height: 3vh;
+    margin: 13px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details p{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(23, 4, 4, 0.711);
+    font-family: 'Lato', sans-serif;
+}
+h3 a{
+    color: rgba(0, 0, 0, 0.584);
+    text-decoration: none;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+  }
+  form{
+    /* display: flex;
+    justify-content: center ;
+    position: relative;
+    align-items: flex-start; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: flex-start;
+    right: 32vw;
+    padding: 5px;
+    margin: 10px 10px;
+    font-size: 1vh;
+  }
+  form table{
+    width: 25%;
+    font-size: 3vh;
+    /* font-family: 'Borel', cursive; */
+    font-family: 'Baloo Bhai 2', cursive;
+
+  }
+  h2{
+    margin: 12px;
+    font-size: 7vh;
+    position: relative;
+    /* left: 40px; */
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-left: 73px;
+  }
+  input{
+    /* border-radius: 3px;
+    border: #6e00ff; */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    outline: none;
+ }
+ #record{
+    margin-left: 75px;
+    font-family: 'Baloo Bhai 2', cursive;
+ }
+#form2{
+    margin-left:90px;
+}
+.table-text{
+    font-size: 4vh;
+}

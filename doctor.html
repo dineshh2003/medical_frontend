@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Register Doctor </title>
+<link rel="stylesheet" href="doctor.new.css">
+</head>
+    <body>
+    <div id="details">
+	<p><a href="hospital.html"><button type="submit" class="hidden" style='margin-right:16px'>Hospital Registration</button></a>
+        <a href="patient.html"><button type="submit" class="hidden" style='margin-right:16px'>Patient Registration</button></a>
+        <a href="patient_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Patient Details</button></a>
+        <a href="record_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Medical Record</button></a>
+        <a href="examine_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Patient Examine details</button></a>
+    </p>
+    </div>
+        <h1>Doctor Registration</h1> 
+    <div id="content">
+        <h2>Register Doctor</h2>
+    <form>
+		<table class="table" style="width:25%"> 
+            <tr>
+			<td>Enter Doctor Id:</td>
+			<td><input type="text" id="id1" name="id1"></td>
+		  </tr>
+            <tr>
+			<td> Doctor Name:</td>
+			<td><input type="text" id="name1" name="name1"></td>
+		  </tr>
+		  <tr>
+			<td>Doctor Specification:</td>
+			<td><input type="text" id="spec" name="spec"></td>
+		  </tr>
+		   
+		   <tr>
+			<td>Doctor Phone Number:</td>
+			<td><input type="text" id="pno" name="pno"></td>
+		  </tr>
+            <tr>
+			<td>Doctor Address:</td>
+			<td><input type="text" id="addr" name="addr"></td>
+		  </tr>
+           
+		  <tr>
+		  <td><input type="button" onclick="add_details()" value="Register"></td>
+		  </tr>
+		</table>
+		
+	</form>
+    </div>
+        <h3>To get details of a doctor -->> <a href="doctor_details.html"> Click Here </a></h3>
+    </body>
+</html>
